@@ -13,3 +13,9 @@
 
 Route::get('/posts', 'PostController@index'
 );
+Route::get('/','PostController@index');
+
+
+
+
+?>
